@@ -18,6 +18,46 @@ En esta actividad se desarrolla un sistema para detectar posibles fraudes bancar
 - Documentación y explicación detallada de cada parte del proceso, facilitando el entendimiento de cómo funcionan los modelos de Markov y cómo pueden emplearse para la detección de anomalías en contextos bancarios.
 - Ejemplos y análisis de resultados obtenidos.
 
+## Instrucciones de uso paso a paso
+
+1. **Clona el repositorio**
+   ```bash
+   git clone https://github.com/ladylaura22/Deteccion_de_fraude_bancario.git
+   cd Deteccion_de_fraude_bancario
+   ```
+
+2. **Instala los requisitos**
+   
+   Asegúrate de tener Python y Jupyter Notebook instalados. Instala las dependencias necesarias:
+   ```bash
+   pip install -r requirements.txt
+   ```
+   *Si no existe un archivo `requirements.txt`, instala paquetes típicos como `numpy`, `pandas`, y `matplotlib`.*
+
+3. **Abre el notebook de la actividad**
+   
+   Inicia Jupyter Notebook:
+   ```bash
+   jupyter notebook
+   ```
+   Luego abre el notebook principal (por ejemplo, `Actividad2_HMM.ipynb`) desde el navegador.
+
+4. **Sigue la guía dentro del notebook**
+   
+   El notebook está estructurado en secciones comprendiendo:
+   - Explicación teórica.
+   - Definición y simulación del modelo oculto de Markov.
+   - Ejecución de simulaciones.
+   - Análisis de frecuencias y comparación con la teoría.
+   - Aplicación del algoritmo de Viterbi para inferencia de estados ocultos.
+   - Visualización y análisis de resultados.
+
+   Sigue cada celda en orden, ejecutando su contenido y leyendo las explicaciones.
+
+5. **Modifica y experimenta**
+   
+   Puedes ajustar parámetros del modelo (por ejemplo, probabilidades de transición, longitud de la secuencia, estados observables) para ver diferentes resultados y escenarios.
+
 ## Integrantes de la actividad
 
 - Lady Laura Olmos Contreras
